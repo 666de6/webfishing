@@ -1,0 +1,13 @@
+{
+  "name": "WEBFISHING",
+  "version": "1.0.0",
+  "description": "WEBFISHING: Your Ultimate Multiplayer Fishing Adventure",
+  "scripts": {
+    "build": "eleventy",
+    "serve": "eleventy --serve",
+    "debug": "DEBUG=* eleventy"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^1.0.0"
+  }
+}
