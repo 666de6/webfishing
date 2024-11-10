@@ -8,16 +8,20 @@
           "url": "/"
         },
         {
-          "title": "Gameplay",
-          "url": "#howto"
-        },
-        {
           "title": "Download",
-          "url": "#download"
+          "url": "/#download"
         },
         {
-          "title": "Comments",
-          "url": "#comment"
+          "title": "webfishing Mods",
+          "url": "/webfishing-mods/"
+        },
+        {
+          "title": "webfishing Wiki",
+          "url": "/webfishing-wiki/"
+        },
+        {
+          "title": "webfishing Spectral Bones",
+          "url": "/webfishing-spectral-bones/"
         }
       ],
       "play-button": "Play Now",
@@ -38,12 +42,20 @@
       }
     },
     "index": {
-      "title": "WEBFISHING Download & Discuss: Your Ultimate Multiplayer Fishing Adventure.",
-      "description": "WEBFISHING game is an immersive multiplayer casual fishing game where players can relax, socialize, and catch nearly 100 different aquatic creatures. Download and play now!"
+      "title": "WEBFISHING Download & Discuss: Multiplayer Fishing Adventure",
+      "description": "WEBFISHING game is an immersive multiplayer casual fishing game where players can relax, socialize. Join friends for fun-filled adventures, download & play now!| WEBFISHING"
     },
    "privacy": {
-      "title": "Privacy Policy of WEBFISHING Game | WEBFISHING.us",
-      "description": "Welcome to webfishing.us. WEBFISHING game is an immersive multiplayer casual fishing game where players can relax, socialize. | WEBFISHING.us"
+      "title": "Privacy Policy of WEBFISHING Game| WEBFISHING",
+      "description": "Welcome to webfishing.us. WEBFISHING game is an immersive multiplayer casual fishing game where players can relax, socialize.| WEBFISHING"
+    },
+    "webfishing-mods": {
+      "title": "WEBFISHING Mods: Enhance Your Fishing Experience| WEBFISHING",
+      "description": "Discover the world of WEBFISHING mods, enhancing your fishing adventure with visual improvements, gameplay modifications, and more.| WEBFISHING"
+    },
+    "webfishing-wiki": {
+      "title": "WEBFISHING Wiki: Explore For Comprehensive Guides| WEBFISHING",
+      "description": "Dive into the comprehensive WEBFISHING Wiki, featuring guides, information, and community-driven content. Learn about fishing mechanics, character customization, and more.| WEBFISHING"
     }
     
   },

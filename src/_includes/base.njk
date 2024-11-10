@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ lang }}">
+<html lang="en">
 <head>
   {% set lang = page.url | startsWith("/fr/") | ternary("fr", "en") %}
   {% set currentSlug = page.url | replace("/fr/", "") | replace("/en/", "") | replace("blog/", "") | replace("/", "") %}
@@ -15,7 +15,7 @@
   <meta name="description" content="{{ pageTranslation.description }}">
   <meta property="og:title" content="{{ pageTranslation.title }}" />
   <meta property="og:description" content="{{ pageTranslation.description }}" />
-  <meta property="og:url" content="https://webfishing.us{{ page.url | removeTrailingSlash }}" />
+  <meta property="og:url" content="https://webfishing.us{{ page.url }}" />
   <meta property="og:site_name" content="webfishing.us" />
   <meta property="og:image" content="https://webfishing.us/assets/1.jpeg" />
   <meta property="og:type" content="website" />
@@ -23,7 +23,7 @@
   <meta name="twitter:title" content="{{ pageTranslation.title }}" />
   <meta name="twitter:description" content="{{ pageTranslation.description }}" />
   <meta name="twitter:image" content="https://webfishing.us/assets/1.jpeg" />
-  <link rel="canonical" href="https://webfishing.us{{ page.url | removeTrailingSlash }}" />
+  <link rel="canonical" href="https://webfishing.us{{ page.url }}" />
 
 
   <!-- <meta name="google-adsense-account" content="ca-pub-5331303144323541"> -->
@@ -39,7 +39,7 @@
           colors: {
             green: '#a19b52',
             yellow: '#684332',
-            red: '#af012b',
+            red: '#6e2c0d',
             light: '#ffeed5'
           }
         }
@@ -66,7 +66,7 @@
     </a>
     <div class="flex items-center gap-4">
       <nav id="nav-menu" class="hidden md:block">
-        <div class="shadow-md shadow-[#ffca4e] bg-green md:shadow-none flex flex-col fixed z-[9999] top-14 right-4 shadow-md md:static p-4 text-sm lg:text-md md:flex-row items-center gap-4 font-bold">
+        <div class="shadow-md shadow-[#ffca4e] bg-green md:shadow-none flex flex-col fixed z-[9999] top-14 right-4 shadow-md md:static p-4 text-sm lg:text-md md:flex-row items-center gap-6 font-bold">
           {% for item in basicTranslation.navbar %}
             <a href="{{ item.url | localizeUrl(lang) }}" class="nav-link hover:text-red hover:underline hover:decoration-2 hover:underline-offset-8">{{ item.title }}</a>
           {% endfor %}
@@ -112,6 +112,13 @@
 
   {{ content | safe }}
   
+  <section class="bg-green bg-gradient-to-l from-green to-yellow">
+    <div class="text-center p-8 rounded-lg text-light">
+        <h2 class="text-2xl font-bold mb-4">Ready to Start Your WEBFISHING Adventure?</h2>
+        <p class="mb-6">Join thousands of players in WEBFISHING and create unforgettable memories!</p>
+        <a href="https://store.steampowered.com/app/3146520/WEBFISHING/" target="_blank" class="py-3 px-6 bg-white text-light rounded-full font-bold hover:bg-yellow bg-opacity-50">Try WEBFISHING Now →</a>
+    </div>
+  </section>
   <footer class="bg-green border-t-2 border-light py-5 flex flex-col justify-center items-center text-center">
     <div class=" w-full mt-10">
       <h2 class="text-xl mb-2 text-center lg:text-2xl text-yellow font-black font-sans underline decoration-double">{{ basicTranslation["other-games"] }}</h2>
@@ -186,24 +193,31 @@
     document.getElementById('copyright').innerText = new Date().getFullYear() + '';
     document.addEventListener("DOMContentLoaded", function() {
       const currentUrlHash = window.location.hash;
-      console.log(currentUrlHash)
+      const currentUrlPathname = window.location.pathname;
+      const currentUrl = currentUrlHash ? currentUrlPathname + currentUrlHash : currentUrlPathname;
+
+      console.log(currentUrl)
       const navLinks = document.querySelectorAll('.nav-link');
 
       navLinks.forEach(link => {
-        if (link.getAttribute('href') === currentUrlHash) {
+        if (link.getAttribute('href') === currentUrl) {
           link.classList.add('text-red');
         }
       });
 
       window.addEventListener('hashchange', function() {
-        const newUrlHash = window.location.hash;
+        const currentUrlHash = window.location.hash;
+        const currentUrlPathname = window.location.pathname;
+        const currentUrl = currentUrlHash ? currentUrlPathname + currentUrlHash : currentUrlPathname;
         navLinks.forEach(link => {
           link.classList.remove('text-red');
-          if (link.getAttribute('href') === newUrlHash) {
+          console.log(link.getAttribute('href'), currentUrl)
+          if (link.getAttribute('href') === currentUrl) {
             link.classList.add('text-red');
           }
         });
       });
+
     });
 
     document.getElementById('menu-toggle').addEventListener('click', function() {
