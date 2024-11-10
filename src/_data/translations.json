@@ -12,12 +12,16 @@
           "url": "/#download"
         },
         {
-          "title": "webfishing Mods",
+          "title": "Webfishing Mods",
           "url": "/webfishing-mods/"
         },
         {
-          "title": "webfishing Wiki",
+          "title": "Webfishing Wiki",
           "url": "/webfishing-wiki/"
+        },
+        {
+          "title": "Blog",
+          "url": "/blogentry/"
         }
       ],
       "play-button": "Play Now",
@@ -42,18 +46,25 @@
       "description": "WEBFISHING game is an immersive multiplayer casual fishing game where players can relax, socialize. Join friends for fun-filled adventures, download & play now!| WEBFISHING"
     },
    "privacy": {
-      "title": "Privacy Policy of WEBFISHING Game| WEBFISHING",
+      "title": "Privacy Policy of WEBFISHING Game | WEBFISHING",
       "description": "Welcome to webfishing.us. WEBFISHING game is an immersive multiplayer casual fishing game where players can relax, socialize.| WEBFISHING"
     },
     "webfishing-mods": {
-      "title": "WEBFISHING Mods: Enhance Your Fishing Experience| WEBFISHING",
+      "title": "WEBFISHING Mods: Enhance Your Fishing Experience | WEBFISHING",
       "description": "Discover the world of WEBFISHING mods, enhancing your fishing adventure with visual improvements, gameplay modifications, and more.| WEBFISHING"
     },
     "webfishing-wiki": {
-      "title": "WEBFISHING Wiki: Explore For Comprehensive Guides| WEBFISHING",
+      "title": "WEBFISHING Wiki: Explore For Comprehensive Guides | WEBFISHING",
       "description": "Dive into the comprehensive WEBFISHING Wiki, featuring guides, information, and community-driven content. Learn about fishing mechanics, character customization, and more.| WEBFISHING"
+    },
+    "blogentry": {
+      "title": "WEBFISHING Game & WEBFISHING Mods Blog | WEBFISHING",
+      "description": "Discuss and share everything about WEBFISHING Game & WEBFISHING Mods here!| WEBFISHING"
+    },
+    "webfishing-beginner-guide": {
+      "title": "Beginner's Guide to WEBFISHING Game | WEBFISHING",
+      "description": "Embark on a comprehensive journey through the world of WEBFISHING Game with our beginner's guide. Learn and start your adventure today!| WEBFISHING"
     }
-    
   },
   "fr": {
     "basic": {

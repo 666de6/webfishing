@@ -115,8 +115,8 @@
   <section class="bg-green bg-gradient-to-l from-green to-yellow">
     <div class="text-center p-8 rounded-lg text-light">
         <h2 class="text-2xl font-bold mb-4">Ready to Start Your WEBFISHING Adventure?</h2>
-        <p class="mb-6">Join thousands of players in WEBFISHING and create unforgettable memories!</p>
-        <a href="https://store.steampowered.com/app/3146520/WEBFISHING/" target="_blank" class="py-3 px-6 bg-white text-light rounded-full font-bold hover:bg-yellow bg-opacity-50">Try WEBFISHING Now →</a>
+        <p class="mb-6">Join thousands of players in WEBFISHING Game and create unforgettable memories!</p>
+        <a href="https://store.steampowered.com/app/3146520/WEBFISHING/" target="_blank" class="py-3 px-6 bg-white text-light rounded-full font-bold hover:bg-yellow bg-opacity-50">Try WEBFISHING Game Now →</a>
     </div>
   </section>
   <footer class="bg-green border-t-2 border-light py-5 flex flex-col justify-center items-center text-center">
@@ -196,7 +196,6 @@
       const currentUrlPathname = window.location.pathname;
       const currentUrl = currentUrlHash ? currentUrlPathname + currentUrlHash : currentUrlPathname;
 
-      console.log(currentUrl)
       const navLinks = document.querySelectorAll('.nav-link');
 
       navLinks.forEach(link => {
@@ -211,7 +210,6 @@
         const currentUrl = currentUrlHash ? currentUrlPathname + currentUrlHash : currentUrlPathname;
         navLinks.forEach(link => {
           link.classList.remove('text-red');
-          console.log(link.getAttribute('href'), currentUrl)
           if (link.getAttribute('href') === currentUrl) {
             link.classList.add('text-red');
           }
