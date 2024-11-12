@@ -8,16 +8,16 @@
           "url": "/"
         },
         {
-          "title": "Download",
-          "url": "/#download"
-        },
-        {
           "title": "Webfishing Mods",
           "url": "/webfishing-mods/"
         },
         {
           "title": "Webfishing Wiki",
           "url": "/webfishing-wiki/"
+        },
+        {
+          "title": "Download",
+          "url": "/#download"
         },
         {
           "title": "Blog",
@@ -42,7 +42,7 @@
       }
     },
     "index": {
-      "title": "WEBFISHING Download & Discuss: Multiplayer Fishing Adventure",
+      "title": "WEBFISHING: WEBFISHING Game Download & Discuss | WEBFISHING",
       "description": "WEBFISHING game is an immersive multiplayer casual fishing game where players can relax, socialize. Join friends for fun-filled adventures, download & play now!| WEBFISHING"
     },
    "privacy": {
