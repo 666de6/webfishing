@@ -115,8 +115,8 @@
   <section class="bg-green bg-gradient-to-l from-green to-yellow">
     <div class="text-center p-8 rounded-lg text-light">
         <h2 class="text-2xl font-bold mb-4">Ready to Start Your WEBFISHING Adventure?</h2>
-        <p class="mb-6">Join thousands of players in WEBFISHING Game and create unforgettable memories!</p>
-        <a href="/#download" class="py-3 px-6 bg-white text-light rounded-full font-bold hover:bg-yellow bg-opacity-20">Try WEBFISHING Game Now →</a>
+        <p class="mb-6">Join thousands of players in WEBFISHING and create unforgettable memories!</p>
+        <a href="/#download" class="py-3 px-6 bg-white text-light rounded-full font-bold hover:bg-yellow bg-opacity-20">Try WEBFISHING Now →</a>
     </div>
   </section>
   <footer class="bg-green border-t-2 border-light py-5 flex flex-col justify-center items-center text-center">
@@ -124,7 +124,7 @@
       <h2 class="text-xl mb-2 text-center lg:text-2xl text-yellow font-black font-sans underline decoration-double">{{ basicTranslation["other-games"] }}</h2>
       <div class="flex flex-row flex-wrap items-center justify-center gap-2">
         {% for item in linkedgames.gameList %}
-          <div class="w-24 h-24 bg-[url('{{ item.img }}')] bg-cover shadow-md bg-center cursor-pointer overflow-hidden relative">
+          <div class="w-24 h-24 bg-[url('{{ item.img }}')] bg-cover shadow-md rounded-lg bg-center cursor-pointer overflow-hidden relative">
             <a href="{{ item.path }}" class="opacity-0 hover:opacity-100 bg-yellow bg-opacity-0 hover:bg-opacity-90 absolute w-full h-full top-0 left-0 z-99 flex items-end justify-start p-2">
               {# <div class="w-full h-8 md:h-6 absolute bottom-0 flex items-center justify-center text-sm"> #}
                 <h3 class="text-xs font-bold text-green text-center">{{ item.name }}</h3>
