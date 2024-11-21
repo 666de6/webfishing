@@ -1,233 +1,214 @@
 ---
 layout: base.njk
 ---
+<div class="bg-green px-10 py-6 text-md mx-auto font-mono text-light container max-w-6xl md:flex md:space-x-4">
+    <!-- Left Sidebar -->
+    <nav class="wiki-sidebar w-64 bg-opacity-80 px-4 hidden md:block text-light">
+        <div class="logo mb-6">
+            <h1 class="text-xl lg:text-3xl font-black underline decoration-double font-sans">WEBFISHING Wiki</h1>
+        </div>
+        <div class="nav-links space-y-2">
+            <h3 class="text-sm font-bold mb-2 text-red">Navigation</h3>
+            <ul class="space-y-1 text-xs">
+                <li><a href="/" class="hover:underline">Main Page</a></li>
+                <li><a href="/webfishing-mods" class="hover:underline">Webfishing Mods</a></li>
+                <li><a href="/blogentry/" class="hover:underline">Blog</a></li>
 
-<main class="bg-green px-10 py-6 text-md mx-auto font-mono">
-  <section class="hero-section">
-    <h1 class="text-xl md:text-2xl font-black mb-4">WEBFISHING Wiki: Your Complete Guide to the Ultimate Fishing Adventure</h1>
-    <p class="game-subtitle mb-4">
-      Welcome to WEBFISHING Wiki, your comprehensive resource for mastering WEBFISHING, the charming multiplayer fishing game created by lamedeveloper. Our WEBFISHING Wiki guides you through a vibrant virtual world featuring nearly 100 different fish species, character customization, social interactions, and everything you need to know about becoming a master angler in this cozy virtual environment. You can also check out <a class="text-red underline" href="https://webfishing.wiki.gg/wiki/WEBFISHING_Wiki" target="_blank">WEBFISHING Wiki</a> for more details.
-    </p>
-    <a href="/blog/webfishing-spectral-bones-locations-guide" target="_blank">
-      <img src="/assets/spectral-bones-locations.jpeg" alt="WEBFISHING Wiki Guide" class="w-full rounded-lg mb-4">
-    </a>
-  </section>
+                <li><a href="/#download" class="hover:underline">Download</a></li>
+                <li><a href="/#comments" class="hover:underline">Comments</a></li>
+            </ul>
+        </div>
+    </nav>
 
-  <section class="mt-10" id="faq">
-    <h2 class="text-2xl font-bold mb-4 underline">WEBFISHING Wiki: Beginner's Guides</h2>
-    <div class="flex flex-col gap-6">
-      <div class="border-yellow border-b-2 py-4">
-        <h3 class="text-lg font-bold text-red mb-2">Starting Your Journey - WEBFISHING Wiki Basics</h3>
-        <p>The WEBFISHING Wiki recommends beginning with the basic fishing rod and worm bait combination. Our comprehensive guides will help you understand the core mechanics, earning strategies, and equipment progression paths essential for success.</p>
-      </div>
+    <!-- Main Content -->
+    <main class="">
+        <div class="">
+            <div class="flex flex-col md:flex-row md:justify-between text-light">
+                <h2 class="text-2xl font-black mb-4">WEBFISHING</h2>
+                <!-- Social Share Buttons -->
+                <div class="flex md:justify-center items-center gap-3 mb-6">
+                    <!-- Twitter/X -->
+                    <a href="https://twitter.com/intent/tweet?url=https://webfishing.us/webfishing-wiki" 
+                        target="_blank"
+                        class="flex items-center gap-2 px-3 py-2 bg-red bg-opacity-20 rounded-lg hover:bg-opacity-60 transition-all duration-300 text-light text-sm">
+                        <svg class="w-4 h-4" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 16 16">
+                            <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865l8.875 11.633Z"/>
+                        </svg>
+                    </a>
+                
+                    <!-- Facebook -->
+                    <a href="https://www.facebook.com/sharer/sharer.php?u=https://webfishing.us/webfishing-wiki" 
+                        target="_blank"
+                        class="flex items-center gap-2 px-3 py-2 bg-red bg-opacity-20 rounded-lg hover:bg-opacity-60 transition-all duration-300 text-light text-sm">
+                        <svg class="w-4 h-4" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 16 16">
+                            <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+                        </svg>
+                    </a>
 
-      <div class="border-yellow border-b-2 py-4">
-        <h3 class="text-lg font-bold text-red mb-2">WEBFISHING Wiki: Understanding Game Uniqueness</h3>
-        <p>According to the WEBFISHING Wiki community, the game's distinctive charm comes from its perfect blend of relaxing gameplay and social features. Our wiki guides help you balance fishing activities with social interactions for the optimal gaming experience.</p>
-      </div>
-
-      <div class="">
-        <h3 class="text-lg font-bold text-red mb-2">Social Features & Community Guidelines</h3>
-        <p>The WEBFISHING Wiki provides detailed information about social interactions, character customization, and musical instrument gameplay. Learn how to become an active member of our welcoming community while mastering your fishing skills.</p>
-      </div>
-    </div>
-  </section>
-
-  <section class="mt-10" id="comment">
-    <h2 class="text-2xl font-bold mb-4 underline">WEBFISHING Wiki: Advanced Strategy Guides</h2>
-    <section class="grid grid-cols-1 md:grid-cols-3 gap-8">
-        <div class="w-full cursor-pointer hover:brightness-50 overflow-hidden rounded-lg">
-          <a href="/blog/webfishing-spectral-bones-locations-guide" class="">
-            <img src="/assets/spectral-bones-locations.jpeg" alt="Bad Parenting Blog" title="Bad Parenting Blog" style="height: 200px; width: 100%;">
-            <div class="w-full bg-yellow text-light bg-opacity-50 text-black p-4">
-              <p class="mb-2 text-xs">November 11, 2024</p>
-              <h3 class="text-sm font-bold">WEBFISHING Spectral Bones Locations Guide</h3>
-              <p class="mt-2 text-xs line-clamp-4">Hidden throughout the WEBFISHING world are five mysterious Spectral Bones, each with its own unique location and character.</p>
+                    <!-- Copy Link -->
+                    <button onclick="copyPageUrl()"
+                            class="flex items-center gap-2 px-3 py-2 bg-red bg-opacity-20 rounded-lg hover:bg-opacity-60 transition-all duration-300 text-light text-sm">
+                        <svg class="w-4 h-4" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M10.854 7.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7.5 9.793l2.646-2.647a.5.5 0 0 1 .708 0z"/>
+                            <path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1v-1z"/>
+                            <path d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3z"/>
+                        </svg>
+                    </button>
+                </div>
             </div>
-          </a>
-        </div>
-    
-        <div class="w-full cursor-pointer hover:brightness-50 overflow-hidden rounded-lg">
-          <a href="/blog/how-to-get-spectral-rod-in-webfishing" class="">
-            <img src="/assets/spectral-rod.png" alt="Bad Parenting Blog" title="Bad Parenting Blog" style="height: 200px; width: 100%;">
-            <div class="w-full bg-yellow text-light bg-opacity-50 text-black p-4">
-              <p class="mb-2 text-xs">November 11, 2024</p>
-              <h3 class="text-sm font-bold">How To Get Spectral Rod in Webfishing</h3>
-              <p class="mt-2 text-xs line-clamp-4">The Spectral Rod is a secret fishing rod in WEBFISHING that can be obtained by collecting all five Spectral Bones scattered throughout the map.</p>
+
+            <!-- Info Box -->
+            <div class="info-box bg-red bg-opacity-20 p-4 rounded-lg mb-6">
+                <div class="text-center mb-4">
+                    <img src="/assets/1.jpeg" alt="WEBFISHING game cover" class="w-full rounded-lg max-w-xs">
+                </div>
+                
+                <table class="w-full border-collapse">
+                    <tr class="border-b border-light border-opacity-20">
+                        <th class="text-left pr-4 py-2">Type</th>
+                        <td>Multiplayer Video Game</td>
+                    </tr>
+                    <tr>
+                      <th class="text-left pr-4 py-2">Developer</th>
+                      <td>lamedeveloper</td>
+                    </tr>
+                    <tr>
+                        <th class="text-left pr-4 py-2">Publisher</th>
+                        <td>lamedeveloper</td>
+                    </tr>
+                    <tr class="border-b border-light border-opacity-20">
+                        <th class="text-left pr-4 py-2">Status</th>
+                        <td>Released</td>
+                    </tr>
+                    <tr>
+                        <th class="text-left pr-4 py-2">Release Date</th>
+                        <td>Oct 12, 2024</td>
+                    </tr>
+                    <tr class="border-b border-light border-opacity-20">
+                        <th class="text-left pr-4 py-2">Genre</th>
+                        <td>	Fishing game,Simulation</td>
+                    </tr>
+                    <tr class="border-b border-light border-opacity-20">
+                      <th class="text-left pr-4 py-2">Platform</th>
+                      <td>Microsoft Windows</td>
+                    </tr>
+                    <tr>
+                        <th class="text-left pr-4 py-2">Digital Platform</th>
+                        <td>Steam</td>
+                    </tr>
+                    
+                </table>
             </div>
-          </a>
-        </div>
-    
-        <div class="w-full cursor-pointer hover:brightness-50 overflow-hidden rounded-lg">
-          <a href="/blog/webfishing-secrets" class="">
-            <img src="/assets/500px-SpectralBoneLocation1.jpg" alt="WEBFISHING Secrets Blog" title="WEBFISHING Secrets Blog" style="height: 200px; width: 100%;">
-            <div class="w-full bg-yellow text-light bg-opacity-50 text-black p-4">
-              <p class="mb-2 text-xs">November 11, 2024</p>
-              <h3 class="text-sm font-bold">WEBFISHING Secrets: Unlocking the Hidden Tool</h3>
-              <p class="mt-2 text-xs line-clamp-4">Discover the hidden secrets of WEBFISHING and unlock exclusive rewards by finding secret items scattered throughout the map.</p>
+
+            <!-- Table of Contents -->
+            <div class="toc bg-black bg-opacity-20 p-4 rounded-lg mb-6">
+                <h2 class="text-lg font-bold mb-2">Contents</h2>
+                <ul class="list-decimal list-inside">
+                    <li><a href="#overview" class="hover:underline">Overview</a></li>
+                    <li><a href="#development" class="hover:underline">Development</a></li>
+                    <li><a href="#gameplay" class="hover:underline">Gameplay</a></li>
+                    <li><a href="#basics" class="hover:underline">Game Basics</a></li>
+                </ul>
             </div>
-          </a>
-        </div>
-    
-      </section>
-    </section>
 
-  <section class="mt-10" id="wikiBasics">
-    <h2 class="text-2xl font-bold mb-4 underline">WEBFISHING Wiki: Essential Game Features</h2>
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-      <div class="bg-yellow bg-opacity-20 rounded-lg p-4">
-        <h3 class="text-sm font-bold text-light mb-2">Multiplayer Experience - WEBFISHING Wiki Community</h3>
-        <p>The WEBFISHING Wiki community highlights how the game creates perfect moments for social interaction while fishing. Whether you're waiting for a bite or sharing tips with fellow anglers, our wiki guides you through the social aspects of this unique virtual campsite.</p>
-      </div>
-      <div class="bg-yellow bg-opacity-20 p-4 rounded-lg">
-        <h3 class="text-sm font-bold text-light mb-2">Advanced Fishing System Guide</h3>
-        <p>According to the WEBFISHING Wiki, players can discover nearly 100 different fish species across six distinct quality levels. From Normal to the rare Alpha quality, our wiki documentation provides detailed information about each species and their habitats.</p>
-      </div>
-      <div class="bg-yellow bg-opacity-20 p-4 rounded-lg">
-        <h3 class="text-sm font-bold text-light mb-2">Character Customization Guide</h3>
-        <p>The WEBFISHING Wiki features comprehensive guides on avatar customization options. Learn about available fishing gear upgrades, unique outfits, and how to make your character stand out in the game's cozy environment.</p>
-      </div>
-      <div class="bg-yellow bg-opacity-20 p-4 rounded-lg">
-        <h3 class="text-sm font-bold text-light mb-2">Social Features Documentation</h3>
-        <p>Explore the <a class="text-red underline" href="https://webfishing.wiki.gg/wiki/WEBFISHING_Wiki" target="_blank">WEBFISHING Wiki's</a> detailed coverage of social features, including the chatroom system, musical instruments, and community events. Create lasting friendships while mastering the art of virtual fishing.</p>
-      </div>
-    </div>
-  </section>
+            <!-- Article Content -->
+            <section id="overview">
+                <p class="mb-4">Welcome to the WEBFISHING Wiki, your comprehensive guide to the charming multiplayer fishing game created by lamedeveloper. WEBFISHING combines relaxing gameplay with social features, offering players a cozy virtual environment to fish, socialize, and collect nearly 100 different species of fish.</p>
+            </section>
 
-  <section class="mt-10" id="gameplayGuide">
-    <h2 class="text-2xl font-bold mb-4 underline">WEBFISHING Wiki: Complete Game Mechanics</h2>
-    <div class="flex flex-col gap-8">
-      <div class="gap-8 p-4 rounded-lg flex flex-col md:flex-row items-center">
-        <img src="/assets/1.jpeg" alt="WEBFISHING Wiki Fishing Guide" class="rounded-lg w-full md:w-1/2 mb-4 md:mb-0 mr-4 md:mr-0"/>
-        <div>
-          <h3 class="text-lg font-bold text-green-600 mb-2">Essential Fishing Mechanics</h3>
-          <p>The WEBFISHING Wiki provides detailed instructions for mastering the fishing system. Learn about rod selection, casting techniques, and the engaging minigame that determines your success in landing the perfect catch.</p>
-        </div>
-      </div>
-      
-      <div class="gap-8 p-4 rounded-lg flex flex-col md:flex-row items-center">
-        <div>
-          <h3 class="text-lg font-bold text-green-600 mb-2">Advanced Bait Systems</h3>
-          <p>Consult the WEBFISHING Wiki for in-depth analysis of the six bait types: Worm, Cricket, Leech, Minnow, Squid, and Nautilus. Our wiki explains how each bait affects your chances of catching different quality fish.</p>
-        </div>
-        <img src="/assets/3.jpeg" alt="WEBFISHING Wiki Bait Guide" class="rounded-lg w-full md:w-1/2 mb-4 md:mb-0 mr-4 md:mr-0"/>
-      </div>
+            <section id="development" class="my-8">
+                <h2 class="text-xl font-bold mb-4 border-b border-light">Development</h2>
+                <p class="mb-4">WEBFISHING began as a passion project during Goodgis' Autumn Game Jam in 2022, where developer lamedeveloper created the initial version in just 8 days. The original release was a free-to-play single-player experience, which laid the foundation for the multiplayer version we know today.</p>
+            </section>
 
-      <div class="gap-8 p-4 rounded-lg flex flex-col md:flex-row items-center">
-        <img src="/assets/5.jpeg" alt="WEBFISHING Wiki Progression Guide" class="rounded-lg w-full md:w-1/2 mb-4 md:mb-0 mr-4 md:mr-0"/>
-        <div>
-          <h3 class="text-lg font-bold text-green-600 mb-2">Progression and Upgrades</h3>
-          <p>The WEBFISHING Wiki tracks all available equipment upgrades and customization options. Follow our comprehensive guides to earn currency through quests and fish sales, maximizing your progression in the game.</p>
-        </div>
-      </div>
-    </div>
-  </section>  
+            <section id="gameplay" class="my-8">
+                <h2 class="text-xl font-bold mb-4 border-b border-light">Gameplay</h2>
+                <p class="mb-4">WEBFISHING is a sandbox-style multiplayer game that offers various social activities centered around fishing and exploration. Players can join or host online servers to interact with others and enjoy the game's features.</p>
 
-  <section class="mt-10" id="technicalDetails">
-    <h2 class="text-2xl font-bold mb-4 underline">WEBFISHING Wiki: Technical Guide & Quality System</h2>
-    <div class="">
-      <h3 class="font-bold mb-2">WEBFISHING Wiki: Detailed Bait Quality Probability Guide</h4>
-      <div class="grid grid-cols-1 gap-6">
-        <div>
-          <div class="w-full overflow-x-auto">
-            <table class="w-full min-w-[640px] border-collapse border border-yellow">
-              <thead class="bg-light">
-                <tr>
-                  <th class="border p-2">Bait Type</th>
-                  <th class="border p-2">Normal</th>
-                  <th class="border p-2">Shining</th>
-                  <th class="border p-2">Glistening</th>
-                  <th class="border p-2">Opulent</th>
-                  <th class="border p-2">Radiant</th>
-                  <th class="border p-2">Alpha</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td class="border p-2">Worm</td>
-                  <td class="border p-2">100%</td>
-                  <td class="border p-2">0%</td>
-                  <td class="border p-2">0%</td>
-                  <td class="border p-2">0%</td>
-                  <td class="border p-2">0%</td>
-                  <td class="border p-2">0%</td>
-                </tr>
-                <tr>
-                  <td class="border p-2">Cricket</td>
-                  <td class="border p-2">95%</td>
-                  <td class="border p-2">5%</td>
-                  <td class="border p-2">0%</td>
-                  <td class="border p-2">0%</td>
-                  <td class="border p-2">0%</td>
-                  <td class="border p-2">0%</td>
-                </tr>
-                <tr>
-                  <td class="border p-2">Leech</td>
-                  <td class="border p-2">80.75%</td>
-                  <td class="border p-2">14.25%</td>
-                  <td class="border p-2">5%</td>
-                  <td class="border p-2">0%</td>
-                  <td class="border p-2">0%</td>
-                  <td class="border p-2">0%</td>
-                </tr>
-                <tr>
-                  <td class="border p-2">Minnow</td>
-                  <td class="border p-2">35.62%</td>
-                  <td class="border p-2">35.63%</td>
-                  <td class="border p-2">23.75%</td>
-                  <td class="border p-2">5%</td>
-                  <td class="border p-2">0%</td>
-                  <td class="border p-2">0%</td>
-                </tr>
-                <tr>
-                  <td class="border p-2">Squid</td>
-                  <td class="border p-2">8.88%</td>
-                  <td class="border p-2">35.53%</td>
-                  <td class="border p-2">36.34%</td>
-                  <td class="border p-2">14.25%</td>
-                  <td class="border p-2">5%</td>
-                  <td class="border p-2">0%</td>
-                </tr>
-                <tr>
-                  <td class="border p-2">Nautilus</td>
-                  <td class="border p-2">0.16%</td>
-                  <td class="border p-2">7.86%</td>
-                  <td class="border p-2">24.05%</td>
-                  <td class="border p-2">39.19%</td>
-                  <td class="border p-2">23.75%</td>
-                  <td class="border p-2">5%</td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-          <p class="mt-4">Access the <a class="text-red underline" href="https://webfishing.wiki.gg/wiki/WEBFISHING_Wiki" target="_blank">WEBFISHING Wiki</a> for comprehensive bait strategies and advanced fishing techniques. Our probability tables are regularly updated to reflect the latest game mechanics.</p>
-        </div>
-      </div>
-    </div>
-  </section>
+                <h3 class="text-lg font-bold mb-3">Core Mechanics</h3>
+                <ul class="list-disc list-inside mb-4 space-y-2">
+                    <li>Fishing Minigame - Hold left mouse button to reel in catches, with timed clicks for better results</li>
+                    <li>Fishing Buddy System - Purchase an automated companion to catch fish over time</li>
+                    <li>Diverse Catches - From various fish species to marine creatures and even trash items</li>
+                    <li>Dynamic Sizing - Caught items can appear proportionally large compared to player avatars</li>
+                </ul>
 
-  <section class="mt-10" id="officialLinks">
-    <h2 class="text-2xl font-bold mb-4 underline">WEBFISHING Wiki: Official Resources & Community Links</h2>
-    <div class="">
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-        <div>
-          <h3 class="text-lg font-bold text-red mb-2">Game Platforms</h3>
-          <ul class="list-disc list-inside">
-            <li><a href="https://webfishing.info/" target="_blank" class="text-red underline">Official Website</a></li>
-            <li><a href="https://store.steampowered.com/app/3146520/WEBFISHING/" target="_blank" class="text-red underline">Steam Page</a></li>
-            <li><a href="https://x.com/webfishing_" target="_blank" class="text-red underline">Official Twitter</a></li>
-          </ul>
-        </div>
-        <div>
-          <h3 class="text-lg font-bold text-red mb-2">Developer Links</h3>
-          <ul class="list-disc list-inside">
-            <li><a href="https://x.com/westthewerst" target="_blank" class="text-red underline">Lamedeveloper's Personal Twitter</a></li>
-            <li><a href="https://x.com/lamedev_" target="_blank" class="text-red underline">Lamedeveloper's Development Twitter</a></li>
-            <li><a href="https://lamedeveloper.itch.io/" target="_blank" class="text-red underline">Lamedeveloper's itch.io Page</a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </section>
+                <h3 class="text-lg font-bold mb-3">Activities & Features</h3>
+                <ul class="list-disc list-inside mb-4 space-y-2">
+                    <li>Metal Detecting - Explore areas for hidden treasures</li>
+                    <li>Musical Expression - Play guitar with realistic string mechanics and chord systems</li>
+                    <li>MIDI Support - Community-made mods enable MIDI file playback through in-game instruments</li>
+                    <li>Environmental Traversal - Launch your character to reach high locations or distant areas</li>
+                </ul>
 
-</main>
+                <h3 class="text-lg font-bold mb-3">Progression System</h3>
+                <ul class="list-disc list-inside mb-4 space-y-2">
+                    <li>Economy - Earn cash by selling fish and completing quests</li>
+                    <li>Customization - Purchase avatar accessories and equipment upgrades</li>
+                    <li>Collections - Complete fish collections and discover rare species</li>
+                    <li>Secret Content - Find hidden items and participate in special events</li>
+                </ul>
+            </section>
+
+            <section id="basics" class="my-8">
+                <h2 class="text-xl font-bold mb-4 border-b border-light">Game Basics</h2>
+                <p class="mb-4">WEBFISHING features several core game mechanics and systems that players need to understand to progress effectively.</p>
+
+                <h3 class="text-lg font-bold mb-2">Fishing System</h3>
+                <p class="mb-4">Fishing forms the core gameplay loop of WEBFISHING. Through fishing, players can catch various types of fish, earn in-game currency, and purchase upgrades and equipment to enhance their fishing experience.</p>
+
+                <h3 class="text-lg font-bold mb-2">Fish Varieties</h3>
+                <p class="mb-2">The game features 78 different catchable fish species:</p>
+                <ul class="list-disc list-inside mb-4">
+                    <li>32 Freshwater fish species</li>
+                    <li>32 Saltwater fish species</li>
+                    <li>4 Special rain-exclusive fish</li>
+                    <li>7 Junk items</li>
+                    <li>2 Miscellaneous fish types</li>
+                </ul>
+
+                <h3 class="text-lg font-bold mb-2">Equipment System</h3>
+                <h4 class="font-bold mb-2">Bait</h4>
+                <p class="mb-2">Consumable items purchased at the Bait Shop:</p>
+                <ul class="list-disc list-inside mb-4">
+                    <li>Start with basic worm bait</li>
+                    <li>Unlock 5 additional bait types through progression</li>
+                    <li>Change active bait through the Tacklebox interface</li>
+                </ul>
+
+                <h4 class="font-bold mb-2">Lures</h4>
+                <p class="mb-2">Equippable items that enhance fishing:</p>
+                <ul class="list-disc list-inside mb-4">
+                    <li>Provide various fishing bonuses</li>
+                    <li>Bare Hook available by default</li>
+                    <li>Additional lures unlocked through Camp Tier progression</li>
+                </ul>
+
+                <h3 class="text-lg font-bold mb-2">Additional Features</h3>
+                <h4 class="font-bold mb-2">Cosmetics</h4>
+                <p class="mb-4">Purely aesthetic items that allow players to customize their appearance without affecting gameplay mechanics.</p>
+
+                <h4 class="font-bold mb-2">Musical Instruments</h4>
+                <p class="mb-2">Interactive items for musical expression:</p>
+                <ul class="list-disc list-inside mb-4">
+                    <li>Guitars - Full string and chord system</li>
+                    <li>Tambourine - Rhythmic percussion instrument</li>
+                </ul>
+            </section>
+
+            <!-- Official Links -->
+            <section class="mt-10" id="official-links">
+                <h2 class="text-xl font-bold mb-4 border-b border-light">Official Links</h2>
+                <ul class="list-disc list-inside">
+                    <li><a href="https://webfishing.us/" target="_blank" class="underline">Official Website</a></li>
+                    <li><a href="https://store.steampowered.com/app/3146520/WEBFISHING/" target="_blank" class="underline">Steam Page</a></li>
+                    <li><a href="https://x.com/webfishing_" target="_blank" class="underline">Official Twitter</a></li>
+                    <li><a href="https://x.com/westthewerst" target="_blank" class="underline">Developer's Personal Twitter</a></li>
+                    <li><a href="https://x.com/lamedev_" target="_blank" class="underline">Developer's Dev Twitter</a></li>
+                    <li><a href="https://lamedeveloper.itch.io/" target="_blank" class="underline">Developer's itch.io</a></li>
+                </ul>
+                
+            </section>
+        </div>
+    </main>
+</div>
