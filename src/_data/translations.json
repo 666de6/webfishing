@@ -76,46 +76,14 @@
     "webfishing-secrets": {
       "title": "WEBFISHING Secrets: Unlocking the Hidden Tool | WEBFISHING",
       "description": "Explore the hidden secrets of WEBFISHING and discover how to unlock exclusive rewards by finding secret items scattered throughout the map. | WEBFISHING"
-    }
-  },
-  "fr": {
-    "basic": {
-      "path": "/fr",
-      "navbar": [
-        {
-          "title": "Accueil",
-          "url": "/fr"
-        },
-        {
-          "title": "Jeux Populaires",
-          "url": "/fr/hot-games"
-        },
-        {
-          "title": "Blog",
-          "url": "/fr/blog"
-        }
-      ],
-      "play-button": "Jouer Maintenant",
-      "full-screen-button": "Plein écran",
-      "hot-games": "Jeux WEBFISHING Game Wiki populaires",
-      "other-games": "Essayez d'autres jeux populaires en ligne",
-      "blog": {
-        "title": "Blog sur les Jeux de WEBFISHING Game Wiki",
-        "sub": ["Articles récents"]
-      },
-      "hot": {
-        "title": "Jeux de WEBFISHING Game Wiki populaires",
-        "sub": ["#1 Jeux de Mahjong"]
-      },
-      "privacy": {
-        "all": "Tous droits réservés",
-        "pp": "Politique de confidentialité"
-      }
     },
-    "index": {
-      "title": "Les Meilleurs Jeux de WEBFISHING Game Wiki en Ligne Gratuits | WEBFISHING Game Wiki",
-      "description": "Découvrez WEBFISHING Game Wiki, un jeu de puzzle captivant qui combine la beauté des tuiles Mahjong traditionnelles avec des mécaniques de connexion innovantes. | WEBFISHING Game Wiki"
+    "webfishing-what-was-that": {
+      "title": "Webfishing What Was That | WEBFISHING",
+      "description": "Discover the meaning behind the mysterious 'What Was That?' message in WEBFISHING game. Learn how to catch the UFO and unlock this exciting secret! | WEBFISHING"
+    },
+    "webfishing-grincher": {
+      "title": "Who Is WEBFISHING Grincher | WEBFISHING",
+      "description": "Learn about the recent security alert in WEBFISHING, who is the Grincher in WEBFISHING, and how to avoid being targeted by the Grincher Webfishing | WEBFISHING"
     }
-    
   }
 } 
